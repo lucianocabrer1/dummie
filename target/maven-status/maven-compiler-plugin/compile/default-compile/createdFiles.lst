@@ -1,0 +1,11 @@
+com/tables/pojo/Ejercicios$EjerciciosBuilder.class
+com/tables/Application.class
+com/tables/model/AsientosId.class
+com/tables/pojo/Asiento.class
+com/tables/pojo/Asiento$AsientoBuilder.class
+com/tables/model/TipoIvaEntity.class
+com/tables/impl/AsientosImpl.class
+com/tables/pojo/Ejercicios.class
+com/tables/repository/AsientosRepository.class
+com/tables/model/AsientosEntity.class
+com/tables/repository/TipoIvaRepository.class

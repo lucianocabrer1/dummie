@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://10.0.0.92:1433;DatabaseName=QAEquipoDPE
+    username: ZeusSQL
+    password: Zs02
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+    database: sql_server
+    open-in-view: false
+    generate-ddl: false

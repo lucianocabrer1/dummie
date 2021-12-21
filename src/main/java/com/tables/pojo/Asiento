@@ -1,0 +1,26 @@
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import lombok.Builder;
+import lombok.Data;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+
+@Data
+@Builder
+@JsonPropertyOrder({
+        "codigo_empresa",
+        "descripcion_empresa",
+        "ejercicios"
+
+})
+public class Asiento implements Serializable {
+
+    @JsonProperty("codigo_empresa")
+    public String codigo_empresa;
+    @JsonProperty("descripcion_empresa")
+    public String descripcion_empresa;
+    @JsonProperty("ejercicios")
+    public ArrayList<Ejercicios> ejercicios;
+
+}
